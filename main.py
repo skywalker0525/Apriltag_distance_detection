@@ -2,7 +2,7 @@
 #
 # def main():
 #     detector = ApriltagDetector()
-#     image_path = "corrected_AprilTag_images/40.JPG"  # 更换为你的图片文件路径
+#     image_path = "corrected_AprilTag_images/40.JPG"
 #     detector.detect_tags_in_image(image_path)
 #
 # if __name__ == '__main__':

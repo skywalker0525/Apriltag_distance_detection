@@ -1,8 +1,3 @@
-# $-----------------------------$
-#
-# File Name: ApriltagDetection.py
-#
-# $-----------------------------$
 
 import apriltag
 import cv2
@@ -13,7 +8,7 @@ import VisionException
 class ApriltagDetector:
 
     def __init__(self) -> None:
-        pass  # 删除了与视频流相关的初始化逻辑
+        pass
 
     def __createDetector(self) -> apriltag.Detector:
         """
@@ -36,7 +31,7 @@ class ApriltagDetector:
         declared will vary.
         """
         REAL_OBJECT_HEIGHT_AND_WIDTH_IN = 25.5  # mm
-        FOCAL_DISTANCE_CONSTANT = 4057.241520467836   # mm x 3587.80081 y 3590.25677
+        FOCAL_DISTANCE_CONSTANT = 4057.241520467836
 
         # Prevent division by zero by checking if objectHeight or objectWidth is zero
         if objectHeight == 0 or objectWidth == 0:
@@ -56,18 +51,18 @@ class ApriltagDetector:
         return self.__drawAroundApriltags(apriltagsDetected, image)
 
     def preprocess_underwater_image(self, image) -> np.ndarray:
-        # 转换到YUV色彩空间并进行直方图均衡化
+
         yuv_image = cv2.cvtColor(image, cv2.COLOR_BGR2YUV)
         yuv_image[:, :, 0] = cv2.equalizeHist(yuv_image[:, :, 0])
 
-        # 应用CLAHE增加对比度
+
         clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
         yuv_image[:, :, 0] = clahe.apply(yuv_image[:, :, 0])
 
-        # 将处理后的图像转换回BGR色彩空间
+
         equalized_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR)
 
-        # 应用双边滤波减少噪声，同时尽可能保持边缘
+
         filtered_image = cv2.bilateralFilter(equalized_image, 9, 75, 75)  # 使用适中的双边滤波参数
 
         # cv2.imshow('Processed Image', filtered_image)
@@ -86,17 +81,17 @@ class ApriltagDetector:
             print(f"Error: Unable to load image at {image_path}")
             return
 
-        # 将图片转换为灰度
+
         gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-        # 创建检测器并检测AprilTags
+
         detector = self.__createDetector()
         tags = detector.detect(gray_image)
 
-        # 标记检测到的tags并计算它们的信息
+
         if tags:
             annotated_image = self.__drawAroundApriltags(tags, image)  # 使用原图来绘制边界和ID
-            # 构造保存路径
+
             save_path = image_path.rsplit('.', 1)
             save_path = f"{save_path[0]}_detected.{save_path[1]}"
             cv2.imwrite(save_path, annotated_image)
@@ -106,31 +101,31 @@ class ApriltagDetector:
 
     def __drawAroundApriltags(self, apriltags, image) -> np.ndarray:
         FONT = cv2.FONT_HERSHEY_SIMPLEX
-        tag_counter = 1  # 初始化计数器
+        tag_counter = 1
         for tag in apriltags:
-            # 绘制边界框
+
             (ptA, ptB, ptC, ptD) = tag.corners
             cv2.polylines(image, [np.int32(tag.corners)], True, (0, 255, 0), 2)
 
-            # 计算Tag的中心坐标
+
             center = tag.center
             tag_id = tag.tag_id
 
-            # 在图像上绘制Tag的ID和顺序
+
             cv2.putText(image, f"ID: {tag_id} ({tag_counter})",
                         (int(center[0]) - 10, int(center[1]) - 10), FONT, 0.5, (0, 255, 0), 2)
 
-            # 计算Tag在图像上的大小（以像素为单位）和距离
-            objectHeight_px = np.linalg.norm(ptA - ptB)  # 像素单位的高度
-            objectWidth_px = np.linalg.norm(ptB - ptC)  # 像素单位的宽度
-            size_px = max(objectHeight_px, objectWidth_px)  # 使用较大的尺寸作为P
-            distance_mm = self.__findDistance(objectHeight_px, objectWidth_px)  # 假设返回值是以毫米为单位
 
-            # 在控制台打印Tag的全部信息（包括中心坐标、尺寸、距离和顺序）
+            objectHeight_px = np.linalg.norm(ptA - ptB)
+            objectWidth_px = np.linalg.norm(ptB - ptC)
+            size_px = max(objectHeight_px, objectWidth_px)
+            distance_mm = self.__findDistance(objectHeight_px, objectWidth_px)
+
+
             print(
                 f"AprilTag #{tag_counter} ID: {tag_id}, Center: ({int(center[0])}, {int(center[1])}), Size: {round(size_px, 2)}px, Distance: {round(distance_mm, 2)}cm")
 
-            tag_counter += 1  # 更新计数器
+            tag_counter += 1
 
         return image
 

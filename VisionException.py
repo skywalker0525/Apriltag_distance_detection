@@ -1,8 +1,3 @@
-# $-----------------------------$
-#
-# File Name: VisionException.py
-#
-# $-----------------------------$
 
 class CameraNotFound(Exception):
     """
