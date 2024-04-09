@@ -21,7 +21,7 @@ def main():
         # 构建文件的完整路径
         file_path = os.path.join(folder_path, filename)
 
-        # 检查是否是文件以及是否是图片
+        # test the file type
         if os.path.isfile(file_path) and filename.lower().endswith(('.png', '.jpg', '.jpeg')):
             print(f"Processing {filename}...")
             detector.detect_tags_in_image(file_path)
