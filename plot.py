@@ -8,7 +8,6 @@ df = pd.read_excel(file_path)
 
 df['Error Percentage'] = (df['Calculated Distance (cm)'] - df['Real Distance (cm)']) / df['Real Distance (cm)'] * 100
 
-# 绘图
 plt.figure(figsize=(10, 6))
 unique_sizes = df['Real Size (cm)'].unique()
 colors = plt.cm.rainbow(np.linspace(0, 1, len(unique_sizes)))
