@@ -18,12 +18,12 @@ class ApriltagDetector:
                                                       border=1,
                                                       nthreads=4,
                                                       quad_decimate=1,
-                                                      quad_blur=2,  # 注意这里的改动
+                                                      quad_blur=2,
                                                       refine_edges=True,
                                                       refine_decode=False,
                                                       refine_pose=False,
                                                       debug=False,
-                                                      quad_contours=True))  # 增加解码前的锐化)
+                                                      quad_contours=True))
 
     def __findDistance(self, objectHeight, objectWidth) -> float:
         """
@@ -63,7 +63,7 @@ class ApriltagDetector:
         equalized_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR)
 
 
-        filtered_image = cv2.bilateralFilter(equalized_image, 9, 75, 75)  # 使用适中的双边滤波参数
+        filtered_image = cv2.bilateralFilter(equalized_image, 9, 75, 75)
 
         # cv2.imshow('Processed Image', filtered_image)
         # cv2.waitKey(0)
@@ -90,7 +90,7 @@ class ApriltagDetector:
 
 
         if tags:
-            annotated_image = self.__drawAroundApriltags(tags, image)  # 使用原图来绘制边界和ID
+            annotated_image = self.__drawAroundApriltags(tags, image)
 
             save_path = image_path.rsplit('.', 1)
             save_path = f"{save_path[0]}_detected.{save_path[1]}"
