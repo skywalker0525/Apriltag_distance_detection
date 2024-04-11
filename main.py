@@ -14,11 +14,11 @@ import os
 
 def main():
     detector = ApriltagDetector()
-    folder_path = "corrected_AprilTag_images_large_angle"  # 更换为你的图片文件夹路径
+    folder_path = "corrected_AprilTag_images_large_angle" 
 
-    # 遍历文件夹中的所有文件
+
     for filename in os.listdir(folder_path):
-        # 构建文件的完整路径
+
         file_path = os.path.join(folder_path, filename)
 
         # test the file type
