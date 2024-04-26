@@ -14,7 +14,7 @@ import os
 
 def main():
     detector = ApriltagDetector()
-    folder_path = "corrected_AprilTag_images_large_angle" 
+    folder_path = "data_img"
 
 
     for filename in os.listdir(folder_path):
