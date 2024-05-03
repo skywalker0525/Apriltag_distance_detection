@@ -3,6 +3,7 @@ import numpy as np
 import apriltag
 import os
 from tqdm import tqdm  # Import tqdm for progress bars
+import csv
 
 class ApriltagImageDetector:
     def __init__(self):
@@ -13,7 +14,7 @@ class ApriltagImageDetector:
             10: 25.5, # Size for tag ID 10 in mm
             12: 38.5  # Size for tag ID 12 in mm
         }
-        self.FOCAL_DISTANCE_CONSTANT = 4057.241520467836  # Pre-calibrated focal distance constant
+        self.FOCAL_DISTANCE_CONSTANT = 934.8987012987013
 
     def __createDetector(self):
         options = apriltag.DetectorOptions(families='tag36h11',
@@ -30,10 +31,10 @@ class ApriltagImageDetector:
 
     def __findDistance(self, objectHeight, objectWidth, tag_id):
         if objectHeight == 0 or objectWidth == 0:
-            return None  # Avoid division by zero
+            return None
         max_dimension = max(objectHeight, objectWidth)
-        tag_size = self.tag_sizes.get(tag_id, 25.5)  # Default to 25.5 mm if tag ID is not specified
-        return (tag_size * self.FOCAL_DISTANCE_CONSTANT) / max_dimension / 10  # Convert result to cm
+        tag_size = self.tag_sizes.get(tag_id, 25.5)  
+        return (tag_size * self.FOCAL_DISTANCE_CONSTANT) / max_dimension / 10  
 
     def process_images_in_folder(self, folder_path):
         filenames = [f for f in os.listdir(folder_path) if f.lower().endswith((".jpg", ".png"))]
@@ -53,6 +54,15 @@ class ApriltagImageDetector:
                         tag_distances[tag.tag_id].append(distance)
         return {tag_id: (np.mean(distances) if distances else None) for tag_id, distances in tag_distances.items()}
 
+    def save_results_to_csv(self, results, csv_path):
+        with open(csv_path, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["Category", "Subfolder", "Tag ID", "Average Distance (cm)"])
+            for category, subfolders in results.items():
+                for subfolder, distances in subfolders.items():
+                    for tag_id, distance in distances.items():
+                        writer.writerow([category, subfolder, tag_id, distance])
+
     def process_all_folders(self, base_folder):
         categories = [c for c in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, c))]
         all_results = {}
@@ -68,16 +78,7 @@ class ApriltagImageDetector:
 
 # Example usage
 detector = ApriltagImageDetector()
-base_folder = 'data/4.25_image'  # Adjust the path as needed
+base_folder = 'data/4.28_image'  # Adjust the path as needed
 results = detector.process_all_folders(base_folder)
-
-# Printing the results
-for category, subfolders in results.items():
-    print(f"Category: {category}")
-    for subfolder, distances in subfolders.items():
-        print(f"  Subfolder: {subfolder}")
-        for tag_id, distance in distances.items():
-            if distance is not None:
-                print(f"    Tag ID {tag_id}: Average Distance = {distance:.2f} cm")
-            else:
-                print(f"    Tag ID {tag_id}: No valid detections")
+csv_path = '4.28_calculated.csv'  # Define the path for the CSV file
+detector.save_results_to_csv(results, csv_path)

@@ -14,7 +14,7 @@ import os
 
 def main():
     detector = ApriltagDetector()
-    folder_path = "data_img"
+    folder_path = "data_img/straight14"
 
 
     for filename in os.listdir(folder_path):
@@ -37,6 +37,6 @@ if __name__ == '__main__':
 #   |            .
 #   |                .
 #   |                   * p2 (x2,y2)
-#   |
+#   |pi
 #   v
 #   y

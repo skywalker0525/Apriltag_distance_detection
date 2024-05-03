@@ -1,0 +1,574 @@
+Category: straight
+  Subfolder: straight31
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight8
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 29.44 cm
+    Tag ID 10: Average Distance = 27.90 cm
+    Tag ID 12: Average Distance = 33.28 cm
+  Subfolder: straight25
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight20
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight15
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight30
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight4
+    Tag ID 0: Average Distance = 12.35 cm
+    Tag ID 2: Average Distance = 14.00 cm
+    Tag ID 10: Average Distance = 12.59 cm
+    Tag ID 12: Average Distance = 16.08 cm
+  Subfolder: straight17
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight13
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 55.12 cm
+  Subfolder: straight21
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight12
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 50.17 cm
+  Subfolder: straight24
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight16
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight22
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight27
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight9
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 31.25 cm
+    Tag ID 12: Average Distance = 37.16 cm
+  Subfolder: straight26
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight6
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 21.65 cm
+    Tag ID 10: Average Distance = 21.25 cm
+    Tag ID 12: Average Distance = 24.71 cm
+  Subfolder: straight11
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 46.12 cm
+  Subfolder: straight3
+    Tag ID 0: Average Distance = 8.01 cm
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 8.05 cm
+    Tag ID 12: Average Distance = 11.44 cm
+  Subfolder: straight7
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 25.01 cm
+    Tag ID 10: Average Distance = 23.43 cm
+    Tag ID 12: Average Distance = 28.14 cm
+  Subfolder: straight28
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight14
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight29
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight19
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight5
+    Tag ID 0: Average Distance = 16.00 cm
+    Tag ID 2: Average Distance = 17.47 cm
+    Tag ID 10: Average Distance = 16.08 cm
+    Tag ID 12: Average Distance = 19.77 cm
+  Subfolder: straight23
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight18
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight2
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight10
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 34.72 cm
+    Tag ID 12: Average Distance = 41.12 cm
+  Subfolder: straight32
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: straight1
+    Tag ID 0: Average Distance = 12.91 cm
+    Tag ID 2: Average Distance = 14.66 cm
+    Tag ID 10: Average Distance = 12.98 cm
+    Tag ID 12: Average Distance = 16.66 cm
+Category: small
+  Subfolder: small11
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 54.60 cm
+  Subfolder: small6
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 27.20 cm
+    Tag ID 10: Average Distance = 25.36 cm
+    Tag ID 12: Average Distance = 30.35 cm
+  Subfolder: small28
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small1
+    Tag ID 0: Average Distance = 7.49 cm
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 7.45 cm
+    Tag ID 12: Average Distance = 10.42 cm
+  Subfolder: small17
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small22
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small32
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small13
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small19
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small24
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small14
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small21
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small27
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small20
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small12
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small31
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small7
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 33.09 cm
+    Tag ID 10: Average Distance = 30.70 cm
+    Tag ID 12: Average Distance = 37.33 cm
+  Subfolder: small4
+    Tag ID 0: Average Distance = 18.36 cm
+    Tag ID 2: Average Distance = 19.97 cm
+    Tag ID 10: Average Distance = 18.03 cm
+    Tag ID 12: Average Distance = 22.19 cm
+  Subfolder: small3
+    Tag ID 0: Average Distance = 13.70 cm
+    Tag ID 2: Average Distance = 15.77 cm
+    Tag ID 10: Average Distance = 13.58 cm
+    Tag ID 12: Average Distance = 17.82 cm
+  Subfolder: small9
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 38.56 cm
+    Tag ID 12: Average Distance = 46.37 cm
+  Subfolder: small10
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 49.73 cm
+  Subfolder: small25
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small18
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small8
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 34.08 cm
+    Tag ID 12: Average Distance = 40.68 cm
+  Subfolder: small15
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small2
+    Tag ID 0: Average Distance = 10.56 cm
+    Tag ID 2: Average Distance = 12.46 cm
+    Tag ID 10: Average Distance = 10.62 cm
+    Tag ID 12: Average Distance = 14.26 cm
+  Subfolder: small30
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small5
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 23.58 cm
+    Tag ID 10: Average Distance = 21.28 cm
+    Tag ID 12: Average Distance = 26.30 cm
+  Subfolder: small26
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small29
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small16
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: small23
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+Category: middle
+  Subfolder: middle12
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle7
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 38.74 cm
+    Tag ID 12: Average Distance = 47.54 cm
+  Subfolder: middle4
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 28.59 cm
+    Tag ID 10: Average Distance = 24.21 cm
+    Tag ID 12: Average Distance = 31.60 cm
+  Subfolder: middle17
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle24
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle25
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle30
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle28
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle15
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle20
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle2
+    Tag ID 0: Average Distance = 14.74 cm
+    Tag ID 2: Average Distance = 17.95 cm
+    Tag ID 10: Average Distance = 14.49 cm
+    Tag ID 12: Average Distance = 20.11 cm
+  Subfolder: middle3
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 23.92 cm
+    Tag ID 10: Average Distance = 20.14 cm
+    Tag ID 12: Average Distance = 26.66 cm
+  Subfolder: middle23
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle26
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle13
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle22
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle16
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle6
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 38.19 cm
+    Tag ID 10: Average Distance = 33.97 cm
+    Tag ID 12: Average Distance = 43.09 cm
+  Subfolder: middle5
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 32.98 cm
+    Tag ID 10: Average Distance = 29.19 cm
+    Tag ID 12: Average Distance = 36.86 cm
+  Subfolder: middle1
+    Tag ID 0: Average Distance = 9.27 cm
+    Tag ID 2: Average Distance = 11.72 cm
+    Tag ID 10: Average Distance = 9.31 cm
+    Tag ID 12: Average Distance = 14.92 cm
+  Subfolder: middle8
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 50.98 cm
+  Subfolder: middle9
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: Average Distance = 54.60 cm
+  Subfolder: middle21
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle10
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle29
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle14
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle11
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle19
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle27
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: middle18
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+Category: LARGE
+  Subfolder: large16
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large7
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large12
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large6
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large3
+    Tag ID 0: No valid detections
+    Tag ID 2: Average Distance = 28.20 cm
+    Tag ID 10: Average Distance = 25.87 cm
+    Tag ID 12: No valid detections
+  Subfolder: large15
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large13
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large9
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large17
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large5
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large8
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large20
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large1
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large19
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large10
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large4
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: Average Distance = 35.64 cm
+    Tag ID 12: No valid detections
+  Subfolder: large18
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large11
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
+  Subfolder: large2
+    Tag ID 0: Average Distance = 15.56 cm
+    Tag ID 2: Average Distance = 18.11 cm
+    Tag ID 10: Average Distance = 16.77 cm
+    Tag ID 12: Average Distance = 24.66 cm
+  Subfolder: large14
+    Tag ID 0: No valid detections
+    Tag ID 2: No valid detections
+    Tag ID 10: No valid detections
+    Tag ID 12: No valid detections
